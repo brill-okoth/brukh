@@ -1,0 +1,106 @@
+
+
+
+.msg {
+    border-radius: 25x;
+    width: 100%;
+   margin: 5px auto;
+    padding: 8px;
+    list-style: none;
+     box-sizing: border-box;
+     text-align: center;
+    
+}
+
+.success {
+    color: #3a6e3a;
+    border: 1px solid #3a6e3a;
+    background-color: #bcf5bc;
+    
+}
+
+
+.error {
+     color: #884b4b;
+    border: 1px solid #884b4b;
+    background-color: #f5bcbc;
+}
+
+
+.form {
+    background: rgb(56, 35, 35);
+    z-index: 1;
+    font-family:"Candara", sans-serif;
+    position: absolute;
+    margin-left:0.5%;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 900px;
+    padding: 0 45px 30px 45px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.9;
+ 
+    
+}
+
+.form h2 {
+    color: rgb(0, 195, 255);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+
+.form select {
+    outline: 0;
+    background: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-bottom: 30px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2.5px solid #2e86de;
+    border-radius: 15px;
+} 
+
+.form textarea {
+    border-radius: 8px;
+    width: auto;
+    padding: 100px;
+    border: 2.5px solid #2e86de;
+    border-radius: 15px;
+}
+.form input{
+    outline: 0;
+    background: none;
+    font-size: 15px;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-bottom: 30px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2.5px solid #2e86de;
+    border-radius: 15px;
+}
+
+.form label{
+    outline: 0;
+    background: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    padding: 8px;
+    
+}
